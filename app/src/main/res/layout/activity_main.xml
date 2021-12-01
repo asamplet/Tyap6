@@ -7,20 +7,57 @@
 	android:orientation="vertical"
 	tools:context=".MainActivity">
 
+	<EditText android:id="@+id/et1"
+		android:hint="Правило"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/et2"
+		android:hint="На считывание"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/et3"
+		android:hint="Очередь"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/et4"
+		android:hint="Следующее правило"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/et5"
+		android:hint="Действие с очередью"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/et6"
+		android:hint="Результат"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
 	<EditText android:id="@+id/Move"
+		android:visibility="invisible"
 		android:hint="Строка на ввод"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"/>
 
 	<Button android:id="@+id/Add"
-		android:text="Просчитать"
+		android:text="Добавить"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+	<Button android:id="@+id/NextButton"
+		android:text="Дальше"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"/>
 
 	<TextView
+		android:id="@+id/text1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+	<TextView
 		android:id="@+id/text"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"/>
+
+
 
 
 </LinearLayout>
